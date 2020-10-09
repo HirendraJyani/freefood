@@ -1,0 +1,136 @@
+body{
+  text-align: center;
+}
+a {
+  color: #4d4646 !important;
+  text-decoration: none !important;
+}
+.container{
+  max-width: 950px;
+}
+.bg{
+  background-color: #c0ffb3;
+}
+.leaf{
+  width:62px;
+}
+.nav-link{
+  font-size: 20px;
+}
+.startScreen{
+  background-color: #c0ffb3;
+  margin-top: 5.5rem;
+  position: fixed;
+  width:100%;
+}
+
+.headerDesc{
+  color: #4d4646;
+  font-family: 'Anton', sans-serif;
+  /* font-family: 'Secular One', sans-serif; */
+  font-size: 320%;
+  /* font-weight: 700; */
+  letter-spacing: 3px;
+  padding: 10.5% 25%;
+  text-align: center;
+}
+.food1{
+  bottom: 110px;
+  position: absolute;
+  right:0;
+  width:19%;
+}
+.food2{
+  bottom: 60px;
+  position: absolute;
+  right:0;
+  width:19%;
+}
+.food3{
+  bottom: 10px;
+  left:-7%;
+  position: absolute;
+  width:26%;
+}
+.food4{
+  bottom: 5px;
+  position: absolute;
+  right:0;
+  width:19%;
+}
+.pineapple{
+  position: relative;
+  top: 25px;
+  width:6%;
+}
+
+/*********************************** Second Screen ******************************/
+
+.secondScreen{
+  background-color: #ffff;
+  margin-top: 50rem;
+  padding: 50px 1px 100px;
+  position: absolute;
+  width:100%;
+  /* z-index: 1; */
+}
+.secondScreenHeading{
+  color: #4d4646;
+  font-family: 'Anton', sans-serif;
+  font-size: 280%;
+  letter-spacing: 3px;
+  margin: 80px 30px 50px;
+}
+.secondScreenSemiHeading{
+  margin: 100px;
+}
+.take {
+  background: #f5ba13;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  height: 300px;
+  margin: 16px 16px 16px 50px;
+  padding-top: 110px;
+  width: 350px;
+}
+.take:hover{
+  background: #fff;
+}
+
+/********************************** Third Screen ********************************/
+
+.thirdScreen{
+  background-color: #fff;
+  margin-top: 91rem;
+  position: absolute;
+  width: 100%;
+}
+
+.testimonials{
+  margin: 90px 10px;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  margin: 50px 0;
+  width: 40%;
+}
+
+/************************************** Footer ********************************/
+
+footer {
+  background-color: #000;
+  margin-top: 126rem;
+  padding: 50px 30px 0 30px;
+  position: absolute;
+  width: 100%;
+}
+.footerLink{
+   margin:30px;
+ }
+.footerPar{
+  color: #fff;
+  margin-top: 50px;
+}
+
+/************************************** rest **********************************/
