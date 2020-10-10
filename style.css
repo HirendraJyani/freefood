@@ -121,7 +121,7 @@ a {
 }
 
 .take {
-  background: #f5ba13;
+  background: #ff9a76;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   height: 300px;
@@ -131,7 +131,7 @@ a {
 }
 
 .take:hover{
-  background: #fff;
+  background: #c0ffb3;
 }
 
 /********************************** Third Screen ********************************/
