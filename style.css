@@ -1,22 +1,28 @@
 body{
   text-align: center;
 }
+
 a {
   color: #4d4646 !important;
   text-decoration: none !important;
 }
+
 .container{
   max-width: 950px;
 }
+
 .bg{
   background-color: #c0ffb3;
 }
+
 .leaf{
   width:62px;
 }
+
 .nav-link{
   font-size: 20px;
 }
+
 .startScreen{
   background-color: #c0ffb3;
   margin-top: 5.5rem;
@@ -25,43 +31,70 @@ a {
 }
 
 .headerDesc{
-  color: #4d4646;
-  font-family: 'Anton', sans-serif;
-  /* font-family: 'Secular One', sans-serif; */
-  font-size: 320%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
   /* font-weight: 700; */
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   padding: 10.5% 25%;
   text-align: center;
 }
+
 .food1{
-  bottom: 110px;
+  bottom: 310px;
   position: absolute;
   right:0;
-  width:19%;
+  width:26%;
 }
+
 .food2{
   bottom: 60px;
   position: absolute;
   right:0;
   width:19%;
 }
+
 .food3{
   bottom: 10px;
   left:-7%;
   position: absolute;
   width:26%;
 }
+
 .food4{
-  bottom: 5px;
+  bottom: 15px;
   position: absolute;
-  right:0;
-  width:19%;
+  right:17%;
+  width:22%;
 }
+
+.food5{
+  bottom: 10px;
+  left:17%;
+  position: absolute;
+  width:22%;
+}
+
+.food6{
+  bottom: 300px;
+  left:-7%;
+  position: absolute;
+  width:22%;
+}
+
+.food7{
+  bottom: 380px;
+  left:10%;
+  position: absolute;
+  width:12%;
+}
+
 .pineapple{
+  margin-left:7px;
+  margin-right:7px;
   position: relative;
-  top: 25px;
-  width:6%;
+  top: 30px;
+  width:2.5%;
 }
 
 /*********************************** Second Screen ******************************/
@@ -74,6 +107,7 @@ a {
   width:100%;
   /* z-index: 1; */
 }
+
 .secondScreenHeading{
   color: #4d4646;
   font-family: 'Anton', sans-serif;
@@ -81,9 +115,11 @@ a {
   letter-spacing: 3px;
   margin: 80px 30px 50px;
 }
+
 .secondScreenSemiHeading{
   margin: 100px;
 }
+
 .take {
   background: #f5ba13;
   border-radius: 7px;
@@ -93,6 +129,7 @@ a {
   padding-top: 110px;
   width: 350px;
 }
+
 .take:hover{
   background: #fff;
 }
@@ -125,9 +162,14 @@ footer {
   position: absolute;
   width: 100%;
 }
+
 .footerLink{
-   margin:30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 120%;
+  margin:30px;
  }
+
 .footerPar{
   color: #fff;
   margin-top: 50px;
